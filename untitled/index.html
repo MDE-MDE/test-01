@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <a href="#" class="folder"><img src="img/folder.png"/></a>
+    <a href="#" class="file"><img src="img/file.png"/></a>
+    <a href="#" class="link"><img src="img/link.png"/></a>
+</header>
+
+<div id="info">
+    <ol id="list">
+    </ol>
+</div>
+
+<div class="popup__overlay hidden">
+    <section class="order-form">
+        <div class="close"><img src="img/exit.png"></div>
+        <input class="form-input" placeholder="Название файла" required type="text">
+
+        <input type="button" value="New folder" class="apply" OnClick="a();">
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
