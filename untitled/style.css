@@ -1,0 +1,43 @@
+header{
+    background: aqua;
+}
+
+
+.popup__overlay {
+    position: fixed;
+    /*z-index: 100;*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    /*text-align: center*/
+}
+
+.order-form {
+    background: rgb(255, 255, 255);
+    border-radius: 14px;
+    box-shadow: 1px 0px 5px rgb(125, 125, 125);
+    box-sizing: border-box;
+    height: 15%;
+    width: 15%;
+    padding: 20px;
+    margin: 100px auto;
+    position: relative;;
+}
+
+.close{
+    display: block;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
